@@ -3,8 +3,8 @@ kind: Route
 metadata:
   name: frontend
 spec:
-  host: frontend-app.apps.ocp4.rhpg.org
-  path: /
+#  host: frontend-app.apps.ocp4.rhpg.org
+#  path: /
   to:
     kind: Service
     name: frontend
